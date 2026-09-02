@@ -7,7 +7,6 @@ CREATE TABLE Estudiante(
     nombre VARCHAR(50) NOT NULL,
     apellido VARCHAR(50) NOT NULL,
     promedio DECIMAL(3,2) NOT NULL,
-    ejemplo VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE Curso(
