@@ -6,7 +6,8 @@ CREATE TABLE Estudiante(
 	codigo INT UNIQUE PRIMARY KEY auto_increment,
     nombre VARCHAR(50) NOT NULL,
     apellido VARCHAR(50) NOT NULL,
-    promedio DECIMAL(3,2) NOT NULL
+    promedio DECIMAL(3,2) NOT NULL,
+    ejemplo VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE Curso(
